@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    background-color: #fefefe;
+}
+
+body {
+    font-family: Open Sans, Arial;
+    color: #454545;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+a {
+    color: #07a;
+}
+
+a:visited {
+    color: #941352;
+}
+
+header div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+}
+
+header div:last-child {
+    margin: 0;
+}
+
+footer {
+    text-align: right;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        text-align: left;
+    }
+}
